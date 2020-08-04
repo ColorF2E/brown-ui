@@ -32,12 +32,6 @@ import Container from '../pages/layout'
 import DateTimePicker from '../pages/dateTimePicker.vue'
 import Transfer from '../pages/transfer.vue'
 
-// 大数据定制组件库
-import NumberRoll from '../pages/numberroll.vue'
-import EarthAnimation from '../pages/earthanimation.vue'
-import VxeTable from '../pages/vxetable.vue'
-import TreeMenu from '../pages/treemenu.vue'
-
 let routes = [
     { path: '/changelog', component: ChangeLog, name: '更新日志' },
     {
@@ -56,17 +50,6 @@ let routes = [
         children: [
             { path: '/container', component: Container, name: '布局容器' },
             { path: '/button', component: Button, name: '按钮' },
-        ],
-    },
-    {
-        path: '',
-        component: publicPage,
-        name: 'Big Data',
-        children: [
-            { path: '/numberRoll', component: NumberRoll, name: '数字翻滚' },
-            { path: '/earthAnimation', component: EarthAnimation, name: '地球动画' },
-            { path: '/vxeTable', component: VxeTable, name: '多功能表格' },
-            { path: '/treeMenu', component: TreeMenu, name: '菜单多功能树' },
         ],
     },
     {
