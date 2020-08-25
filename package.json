@@ -13,11 +13,11 @@
     "release": "npm run build && npm publish"
   },
   "dependencies": {
-    "async-validator": "^3.3.0",
+    "async-validator": "^3.4.0",
     "normalize-wheel": "^1.0.1",
     "resize-observer-polyfill": "^1.5.0",
-    "throttle-debounce": "^2.2.1",
-    "vue": "^2.6.11",
+    "throttle-debounce": "^2.3.0",
+    "vue": "^2.6.12",
     "wind-dom": "^0.0.3"
   },
   "devDependencies": {
@@ -49,24 +49,24 @@
     "node-sass": "^4.14.1",
     "opn": "^6.0.0",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
-    "ora": "^4.0.5",
+    "ora": "^4.1.1",
     "portfinder": "^1.0.28",
     "rimraf": "^3.0.2",
-    "sass-loader": "^9.0.2",
+    "sass-loader": "^9.0.3",
     "semver": "^7.3.2",
     "shelljs": "^0.8.4",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "url-loader": "^4.1.0",
     "vue-html-loader": "^1.2.4",
     "vue-loader": "^15.9.3",
-    "vue-router": "^3.3.4",
+    "vue-router": "^3.4.3",
     "vue-style-loader": "^4.1.2",
-    "vue-template-compiler": "^2.6.11",
+    "vue-template-compiler": "^2.6.12",
     "webpack": "^4.44.1",
     "webpack-bundle-analyzer": "^3.8.0",
     "webpack-dev-middleware": "^3.7.2",
     "webpack-hot-middleware": "^2.25.0",
-    "webpack-merge": "^5.1.1"
+    "webpack-merge": "^5.1.2"
   },
   "engines": {
     "node": ">= 4.0.0",
